@@ -11,6 +11,17 @@ Los archivo BAT son archivos ejecutables. Estos archivos pueden contener instruc
 * Crear enlaces a programas (.lnk), crear directorios y subdirectorios... y muchas cosas más.
 
 
+Sintaxis básica
+
+```cmd
+@echo off
+REM Comentario
+::Comentario
+echo Hola mundo
+@pause
+EXIT
+```
+
 
 ### Ejemplos.
 
@@ -19,24 +30,35 @@ Los archivo BAT son archivos ejecutables. Estos archivos pueden contener instruc
 Imprimir un mensaje, variable.
 
 ```cmd
+@echo off
+TITLE Hola mundo
+REM El ejemplo sencillo del hola mundo
 echo Hola, mundo!!
 echo %date% 
 echo %time%
+@pause
+exit
 ```
 
 **SET**
 
 Asignar un valor a una variable.
 ```cmd
-SET NOMBRE= Hironakamura
+@echo off
+REM 
+REM
+::Creamos variable NOMBRE y le asignamos un valor
+SET NOMBRE= FERNANDO CARRARO
 ::date /t en terminal
 SET FECHA=%DATE%
 ::time /t en terminal
 SET HORA=%TIME%
 ::Imprimir valores en pantalla
-echo %NOMBRE%
-echo %FECHA%
-echo %HORA%
+echo Hola %NOMBRE%
+echo Hoy es %FECHA%
+echo La hora es %HORA%
+@pause
+EXIT
 ```
 
 
