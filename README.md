@@ -2,6 +2,17 @@
 
 ![Windows Batch](https://1.bp.blogspot.com/-ESvXc8JW6NE/WW1P3bPJvTI/AAAAAAAABSM/GRTNhiG99WgL4PPNUbYegBdP55cj4QEUgCPcBGAYYCw/s1600/batch.png)
 
+Los archivo BAT son archivos ejecutables. Estos archivos pueden contener instrucciones o comandos CMD de Windows. Su extensión pede ser .cmd o .bat. 
+
+**¿Qué puedo hacer con un archivo BAT?**
+* Se puede conocer el nombre de la máquina y el usuario activo de una computadora con OS Windows.
+* Ejecutar otras aplicaciones (Notepad, word, Excel, etc.).
+* Ejecutar tareas, procesos sencillos o hasta complejos.
+* Crear enlaces a programas (.lnk), crear directorios y subdirectorios... y muchas cosas más.
+
+
+
+### Ejemplos.
 
 **ECHO**
 
