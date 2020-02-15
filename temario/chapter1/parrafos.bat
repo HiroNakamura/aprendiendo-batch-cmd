@@ -9,7 +9,12 @@ cls
 echo ********************************
 echo            CMD
 echo ********************************
+IF 1 EQU 1 GOTO :UNO
 GOTO PARRAFO1
+
+:UNO
+echo Hola
+GOTO :PRINCIPAL
 
 :PARRAFO1
 echo Adios!!
