@@ -66,3 +66,4 @@ Enlaces importantes:
 
 * [Sitio de Ron Vander Woude](https://www.robvanderwoude.com/)
 * [Sitio de Norfipc](https://norfipc.com/utiles/tutorialbatch1.html)
+* [Comandos CMD en Mandarín](https://wsgzao.github.io/post/windows-batch/)
